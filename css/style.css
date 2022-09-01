@@ -23,7 +23,7 @@ html {
     font-size: 3rem;
     color: #e52b6b;
     font-weight: bold;
-    padding: 5% 0;
+    padding: 5%;
 }
 .intro {
     text-align: center;
@@ -34,7 +34,7 @@ html {
     display: table;
     clear: both;
     margin: auto;
-    padding: 0px;
+
 }
 .unit {
     width: calc(100% / 3 - 2em);
@@ -43,6 +43,7 @@ html {
     text-align: center;
     background-color: #0f0e17;
     box-shadow: 1px 1px 10px;
+    overflow: hidden;
 }
 .unit > img {
     width:80px;
@@ -66,9 +67,14 @@ html {
 }
 .link {
     text-align: left;
-    padding: 5px 0 5px 90px;
+    padding: 5px 0 5px 10px;
     font-size: 1.2rem;
+    border: 3px;
+    overflow: hidden;
 }
 a {
     text-decoration: none;
+}
+a:hover {
+    color: #e52b6b;
 }
