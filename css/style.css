@@ -33,9 +33,10 @@ html {
     display: table;
     clear: both;
     margin: auto;
+    padding: 0px;
 }
 .unit {
-    width: calc(600px / 3 - 2em);
+    width: calc(100% / 3 - 2em);
     float: left;
     margin: 1em;
     text-align: center;
@@ -45,13 +46,22 @@ html {
     width:50px;
     float: left;
 }
-a {
-
-}
 .unit > h2 {
     text-align: left;
     margin-left:60px;
-    margin-top 5px;
+    margin-top: 3px;
     color: white;
     font-weight: 500;
+}
+.unit > p {
+    font-weight: normal;
+    text-align: left;
+    margin-left:60px;
+    margin-top: 3px;
+    color: white;
+}
+.unit > a {
+    text-align: left;
+    margin-left:60px;
+    text-decoration: none;
 }
