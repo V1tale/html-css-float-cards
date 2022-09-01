@@ -1,5 +1,33 @@
+/* RESER */
 * {
     padding: 0;
     margin:0;
     box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+.container {
+    width:70%;
+    margin: 0 auto;
+    text-align: center;;
+}
+.container2{
+    background-color: red;
+    width:70%;
+    margin: 0 auto;
+    text-align: center;;
+}
+.fredoka {
+    font-family: 'Fredoka', sans-serif; 
+}
+.title {
+    font-size: 3rem;
+    color: #e52b6b;
+    font-weight: bold;
+    padding: 5% 0;
+}
+.intro {
+    text-align: center;
+    font-size: 1.5rem;
 }
